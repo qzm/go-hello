@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'docker build -t go-hello .'
+        echo 'Finished'
       }
     }
   }
